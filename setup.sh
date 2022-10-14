@@ -33,6 +33,7 @@ sudo -i
 sudo curl -L https://github.com/docker/compose/releases/download/2.10.0/docker-compose-`uname -s`-`uname -m` > /usr/local/bin/docker-compose
 sudo chmod +x /usr/local/bin/docker-compose
 exit
+sudo apt install python3-pip
 sudo pip install -y -U docker-compose
 curl -s -L https://nvidia.github.io/nvidia-docker/gpgkey | sudo apt-key add -
 distribution=$(. /etc/os-release;echo $ID$VERSION_ID)
