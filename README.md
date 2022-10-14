@@ -21,5 +21,5 @@ sshdのサービスを再起動，マウント，FSアドレス書き込み，�
 sshとnvidia-smiができるかを確認
 
 ## この後は各自dockerを作るだけ
-20.04 の Docker fileのサンプル
-[jikuya_docker_setup_20.04](../jikuya_docker_setup_20.04)
+20.04のDocker fileのサンプル：
+[jikuya_docker_setup_20.04](http://10.226.47.83:8080/jikuya/jikuya_docker_setup_20.04)
