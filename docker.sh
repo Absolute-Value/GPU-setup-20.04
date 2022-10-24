@@ -1,7 +1,7 @@
 # Dockerインストール
 ## Set up the repository
 sudo apt-get update -y
-sudo apt-get install \
+sudo apt-get install -y \
     ca-certificates \
     curl \
     gnupg \
