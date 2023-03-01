@@ -9,5 +9,5 @@ sudo bash docker.sh
 
 # NVIDIAドライバ インストール
 sudo apt update
-sudo apt upgrade
-sudo apt install nvidia-driver-525
+sudo apt upgrade -y
+sudo apt install nvidia-driver-525 -y
