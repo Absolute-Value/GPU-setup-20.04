@@ -20,10 +20,15 @@ sudo bash setup.sh
 出てくる選択肢に y を打つ
 sshdのサービスを再起動，マウント，FSアドレス書き込み，マウント実行，シンボリックリンク作成
 
-再起動
+自動的に再起動（されないかも）
 
-sshとnvidia-smiができるかを確認
+# prometheusインストール
+```
+sudo bash prometheus.sh
+```
+
+sshとnvidia-smiとsudo docker psができるかを確認
 
 ## この後は各自dockerを作るだけ
 20.04のDocker fileのサンプル：
-[jikuya_docker_setup_20.04](http://10.226.47.83:8080/jikuya/jikuya_docker_setup_20.04)
+[jikuya_docker_setup_20.04](http://10.226.47.83:8080/jikuya/jikuya_docker_20.04_11.6)
