@@ -24,7 +24,7 @@ sshdのサービスを再起動，マウント，FSアドレス書き込み，�
 
 # prometheusインストール
 ```
-sudo bash prometheus.sh
+sudo bash GPU-setup-20.04/prometheus.sh
 ```
 
 sshとnvidia-smiとsudo docker psができるかを確認
