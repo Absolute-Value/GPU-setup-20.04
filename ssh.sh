@@ -1,8 +1,6 @@
 #sshのインストール
-sudo apt-get update -y
-sudo apt-get upgrade -y
+sudo apt install -y ssh
 
-sudo apt-get install -y ssh
 # PermitRootLogin 書き換え
 sudo sed -i '/PermitRootLogin prohibit-password/c PermitRootLogin no' /etc/ssh/sshd_config
 
