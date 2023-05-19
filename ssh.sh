@@ -1,4 +1,5 @@
 #sshのインストール
+sudo apt-get update -y
 sudo apt install -y ssh
 
 # PermitRootLogin 書き換え
