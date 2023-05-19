@@ -1,5 +1,5 @@
 # マウント
-sudo apt-get install -y nfs-common
+sudo apt install -y nfs-common
 
 sudo mkdir -p /mnt/gpu-node
 sudo sh -c 'echo "10.226.47.91:/home /mnt/gpu-node nfs rw 0 0" >> /etc/fstab'
