@@ -17,10 +17,8 @@ git clone http://10.226.47.83:8080/jikuya/gpu-setup-20.04
 cd gpu-setup-20.04
 sudo bash setup.sh
 ```
-出てくる選択肢に y を打つ
-sshdのサービスを再起動，マウント，FSアドレス書き込み，マウント実行，シンボリックリンク作成
 
-自動的に再起動（されないかも）
+自動的に再起動されたら
 
 # prometheusインストール
 ```
