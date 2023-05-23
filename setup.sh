@@ -1,6 +1,6 @@
 sudo apt update -y
 sudo apt upgrade -y
-sudo apt install tmux vim
+sudo apt install tmux vim -y
 
 #sshのインストール
 sudo bash ssh.sh
